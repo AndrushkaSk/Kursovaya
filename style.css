@@ -1,0 +1,117 @@
+
+/* Основной стиль для светлой темы */
+QWidget {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    height: 1.6em;
+    padding: 2px 4px;
+}
+
+QPushButton:hover {
+    background-color: #45a049;
+}
+
+QPushButton:pressed {
+    background-color: #388e3c;
+}
+
+QPushButton#deleteButton {
+    background-color: #f44336;
+}
+
+QPushButton#deleteButton:hover {
+    background-color: #e53935;
+}
+
+QPushButton#ditButton {
+}
+
+QPushButton#deleteButton:pressed {
+    background-color: #d32f2f;
+}
+
+QTableWidget {
+    background-color: white;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+QTableWidget QTableCornerButton::section {
+    background-color: #f4f4f4;
+}
+
+QTableWidget::item {
+    padding: 5px;
+}
+
+QHeaderView::section {
+    background-color: #f4f4f4;
+    padding: 8px;
+    border: 1px solid #ddd;
+    font-weight: bold;
+}
+
+QScrollBar:vertical {
+    border: 2px solid #ddd;
+    background: #f4f4f4;
+
+}
+
+QScrollBar::handle:vertical {
+    background: #bbb;
+    min-height: 10px;
+}
+
+QScrollBar::add-line:vertical {
+    background: #f4f4f4;
+}
+
+QScrollBar::sub-line:vertical {
+    background: #f4f4f4;
+}
+
+QLabel {
+    font-size: 16px;
+}
+
+QLineEdit {
+    padding: 2px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+QLineEdit:focus {
+    border-color: #4CAF50;
+}
+
+QDialog {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+QComboBox {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+QComboBox:focus {
+    border-color: #4CAF50;
+}
+
+.delete_button{
+    background-color: red;
+    color: white;
+}
