@@ -20,7 +20,7 @@ def load_stylesheet():
 
 # База данных
 class Database:
-    def __init__(self, db_name="cars.db"):
+    def __init__(self, db_name="CARS"):
         self.conn = sqlite3.connect(db_name)
         self.create_tables()
 
