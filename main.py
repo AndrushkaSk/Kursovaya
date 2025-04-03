@@ -1,5 +1,7 @@
 import sys
-
+#ИЗМЕНЕНИЯ
+#ИЗМЕНЕНИЯ
+#ИЗМЕНЕНИЯ
 from PyQt6.QtGui import QPixmap
 from PyQt6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QPushButton, QLabel,
